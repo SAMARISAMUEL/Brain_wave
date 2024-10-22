@@ -1,0 +1,717 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/* FONTFACE GILORY */
+@font-face {
+  font-family: "Gilroy-Regular ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Regular ☞"), url("Gilroy-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Gilroy-Bold ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Bold ☞"), url("Gilroy-Bold.woff") format("woff");
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  /* overflow-x: hidden; */
+  margin: 0;
+  box-sizing: border box;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  background: none;
+  font-family: "Gilroy-Bold ☞";
+  font-size: x-small;
+}
+img {
+  width: 10px;
+  height: 10px;
+}
+/* header section */
+nav {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  place-items: center center;
+  padding-top: 1.8rem;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 10px;
+  font-size: x-small;
+  font-family: "Gilroy-Bold ☞";
+  font-weight: bolder;
+  align-items: end;
+}
+nav h3 {
+  font-family: "Rubik";
+  margin: 0rem;
+}
+nav button {
+  background: #473bf0;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  font-size: x-small;
+  transition: all 3s linear;
+}
+nav .menu {
+  display: none;
+}
+/* section 1 */
+.hero img {
+  width: 40%;
+  height: auto;
+  margin-top: 6rem;
+  margin-left: 350px;
+}
+/* h.heero section */
+.hero_text {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+.hero_text h3 {
+  margin-left: 60px;
+  font-size: x-small;
+  color: #f64b4b;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-family: "Gilroy-Bold ☞";
+}
+.hero_text h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Gilroy-Bold ☞";
+  font-weight: bolder;
+}
+.hero_text p {
+  font-family: "Gilroy-Regular ☞";
+  font-size: small;
+  line-height: 1.5;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.hero_text button {
+  background: #473bf0;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: x-small;
+}
+.hero_text .hero_text_small {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-family: "Gilroy-Bold ☞";
+  font-size: xx-small;
+}
+/* content 1 section */
+.content_1 {
+  display: flex;
+  gap: 3rem;
+  /* margin-top: 4rem; */
+  background-color: #f4f7fa;
+  /* margin-left: 4rem; */
+}
+.content_1 .left_image {
+  width: 40%;
+  height: auto;
+}
+.bud_image #ear_bud {
+  position: relative;
+  right: 6px;
+  bottom: 20px;
+}
+.wave_image #wave {
+  position: relative;
+  right: 2px;
+  bottom: 20px;
+}
+.right {
+  width: 60%;
+  display: flex;
+  margin-top: 2rem;
+}
+.right .right_one {
+  display: flex;
+  align-items: center;
+}
+.right .right_two {
+  display: flex;
+  align-items: center;
+}
+.content_1_text {
+  margin-top: 3rem;
+}
+.bud_image,
+.wave_image {
+  transform: scale(2, 2);
+  position: relative;
+  bottom: 40px;
+  left: 1.5rem;
+}
+.content_1 h2,
+.content_1 p {
+  margin-bottom: 1rem;
+}
+.content_1 h2 {
+  width: 45%;
+  font-family: "Gilroy-Bold ☞";
+  font-weight: bolder;
+}
+.content_1_text p {
+  width: 55%;
+  margin-bottom: 6rem;
+  font-family: "Gilroy-Regular ☞";
+  color: #161c2d;
+}
+.right h5,
+.right p {
+  width: 60%;
+  margin-left: 1rem;
+}
+.right h5 {
+  font-family: "Gilroy-Bold ☞";
+  font-weight: bolder;
+  color: #161c2d;
+  margin-bottom: 0.5rem;
+}
+
+.right p {
+  font-family: "Gilroy-Regular ☞";
+  font-size: xx-small;
+  line-height: 1.5;
+  color: #161c2d;
+  width: 50%;
+}
+
+/* content 2 */
+.content_2 {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  background-color: #473bf0;
+}
+.content_2 .number {
+  width: 100%;
+  height: auto;
+}
+.content_2_text {
+  padding: 5rem;
+  margin-left: 7rem;
+}
+.content_2_image {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  place-content: end start;
+}
+.oval {
+  transform: scale(3, 3);
+  padding: 1rem;
+}
+.content_2_text h2 {
+  width: 80%;
+  font-family: "Gilroy-Bold ☞";
+  font-weight: bolder;
+  color: #ffffff;
+}
+.content_2_text .para {
+  width: 70%;
+  color: #ffffff8c;
+  font-family: "Gilroy-Regular ☞";
+  font-size: x-small;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+.content_2_image p {
+  margin-right: 2rem;
+  font-family: "Rubik";
+  color: #ffffff;
+  width: 265px;
+}
+span {
+  margin-left: 3.2rem;
+  font-family: "Gilroy-Bold ☞";
+  font-size: x-small;
+  color: #ffffffb0;
+}
+/* content 3 */
+.content_3 {
+  background-image: url("Group\ 162.png");
+  background-size: 100% 100%;
+  padding: 4rem;
+}
+.content_3 h1,
+.content_3 p {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  color: #ffffff;
+}
+
+.content_3 h1 {
+  font-family: "Gilroy-Bold ☞";
+  margin-bottom: 1rem;
+}
+.content_3 p {
+  font-family: "Gilroy-Regular ☞";
+  color: #ffffffb4;
+  font-size: small;
+}
+.content_3 img {
+  width: 20%;
+  height: 100%;
+  margin-left: 300px;
+  margin-top: 3rem;
+}
+/* pricing section */
+.pricing h2 {
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
+  font-size: 30px;
+  font-family: "Gilroy-Bold ☞";
+}
+.pricing > p {
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 4rem;
+  font-family: "Gilroy-Regular ☞";
+  color: #161c2d;
+}
+.pricing_cards {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 70%;
+  margin: auto;
+}
+.pricing_cards img {
+  width: 80%;
+  height: auto;
+  margin-left: 25px;
+  margin-bottom: 1rem;
+}
+.pricing_cards h3 {
+  margin-left: 40px;
+  margin-bottom: 1rem;
+  font-family: "Gilroy-Bold ☞";
+}
+.pricing_cards p {
+  text-align: center;
+  width: 90%;
+  font-size: x-small;
+  margin-bottom: 1rem;
+  font-family: "Gilroy-Regular ☞";
+  color: #161c2d;
+  line-height: 1rem;
+}
+.pricing_cards button {
+  background: #473bf0;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  font-size: x-small;
+  margin-left: 40px;
+}
+/* cta section */
+.cta img {
+  width: 100%;
+  height: auto;
+  margin-top: 6rem;
+}
+/* footer section */
+footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  place-items: center end;
+  padding: 2rem;
+}
+footer h3 {
+  font-family: "Rubik";
+  margin-left: 5rem;
+}
+footer ul {
+  display: grid;
+  grid-template-columns: 40% 50% 30%;
+  margin-right: 7rem;
+  gap: 0.5rem;
+  font-size: x-small;
+  font-family: "Gilroy-Bold ☞";
+}
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+    width: auto;
+  }
+  nav ul {
+    display: none;
+  }
+  nav > div > .menu {
+    display: block;
+    margin-right: 60%;
+  }
+  nav button {
+    display: none;
+  }
+  .hero img {
+    width: 40%;
+    height: auto;
+    margin-top: 4rem;
+    margin-left: 8rem;
+  }
+  nav {
+    /* margin-left: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav h3 {
+    font-family: "Rubik";
+    margin-right: 50%;
+  }
+  nav .menu {
+    display: block;
+    font-size: 24px;
+  }
+  .hero_text {
+    width: 80%;
+  }
+  .hero_text h3 {
+    width: 100%;
+    margin-left: 1px;
+  }
+  .hero_text h1 {
+    width: 100%;
+  }
+  .hero_text p {
+    width: 100%;
+  }
+
+  .content_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .content_1_text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .content_1 h2 {
+    width: 80%;
+  }
+  .content_1_text p {
+    width: 80%;
+  }
+  .content_1 .left_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .pricing {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing_cards {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  .pricing h2 {
+    width: 60%;
+  }
+  .pricing p {
+    width: 60%;
+  }
+  .pricing_cards p {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+  .bud_image {
+    position: relative;
+    margin-right: 45%;
+    transform: scale(4, 4);
+  }
+  .right p {
+    width: 60%;
+  }
+  .right_one {
+    display: flex;
+    flex-direction: column;
+  }
+  .right_two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bud_image #ear_bud {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+  }
+  .wave_image {
+    position: relative;
+    margin-right: 45%;
+    transform: scale(4, 4);
+  }
+
+  .wave_image #wave {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+  }
+  .content_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .content_2_text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .content_2_text h2,
+  .content_2_text .para {
+    text-align: center;
+    width: 80%;
+  }
+  .content_2_image {
+    display: flex;
+    flex-direction: column;
+  }
+  .oval {
+    transform: scale(8, 8);
+    margin-left: 30%;
+    margin-bottom: 2rem;
+  }
+  .content_2_image p {
+    width: 80%;
+    text-align: center;
+  }
+  .content_2_text span {
+    margin-top: 2rem;
+    margin-right: 40%;
+  }
+  .content_3 {
+    width: auto;
+  }
+  .content_3 h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .content_3 p {
+    width: 80%;
+    text-align: center;
+  }
+  .content_3 img {
+    margin-left: 40%;
+  }
+  .cta img {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer h3 {
+    margin-bottom: 1rem;
+    margin-right: 30%;
+  }
+}
+/*FOR TABLET*/
+@media (min-width: 701px) and (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+    width: auto;
+  }
+  nav ul {
+    display: none;
+  }
+  nav > div > .menu {
+    display: block;
+    margin-right: 60%;
+  }
+  nav button {
+    display: none;
+  }
+  .hero img {
+    width: 40%;
+    height: auto;
+    margin-top: 4rem;
+    margin-left: 8rem;
+  }
+  nav {
+    /* margin-left: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav h3 {
+    font-family: "Rubik";
+    margin-right: 50%;
+  }
+  .hero_text h3 {
+    width: 100%;
+    margin-left: 1px;
+  }
+  .hero_text h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Gilroy-Bold ☞";
+    font-weight: bolder;
+    width: 100%;
+  }
+  .content_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .content_1 .left_image {
+    width: 100%;
+    height: auto;
+  }
+  .content_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing_cards {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+  }
+  nav .menu {
+    display: block;
+    font-size: 24px;
+  }
+  .content_1_text {
+    width: 80%;
+    margin: auto 30%;
+    text-align: center;
+  }
+  .right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bud_image {
+    position: relative;
+    margin-right: 45%;
+    transform: scale(4, 4);
+  }
+  .right p {
+    width: 60%;
+  }
+  .right_one {
+    display: flex;
+    flex-direction: column;
+  }
+  .right_two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bud_image #ear_bud {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+  }
+  .wave_image {
+    position: relative;
+    margin-right: 45%;
+    transform: scale(4, 4);
+  }
+
+  .wave_image #wave {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+  }
+  .content_2_text h2,
+  .content_2_text .para {
+    text-align: center;
+  }
+  .content_2_image {
+    display: flex;
+    flex-direction: column;
+  }
+  .oval {
+    transform: scale(8, 8);
+    margin-left: 30%;
+    margin-bottom: 2rem;
+  }
+  .content_2_image p {
+    width: 80%;
+    text-align: center;
+  }
+  span {
+    margin-left: 33%;
+    margin-top: 2rem;
+  }
+  .content_3 {
+    width: auto;
+  }
+  .content_3 h1 {
+    width: 60%;
+  }
+  .content_3 img {
+    margin-left: 40%;
+  }
+  .cta img {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer h3 {
+    margin-bottom: 1rem;
+    margin-right: 30%;
+  }
+}
