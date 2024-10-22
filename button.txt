@@ -1,0 +1,17 @@
+.primary_btn {
+  padding: 10px 10px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: var(--ba-blue);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 8px;
+  font-family: "Gilroy-Medium ☞";
+}
+.seconday_btn {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+  font-family: "Gilroy-Medium ☞";
+}
